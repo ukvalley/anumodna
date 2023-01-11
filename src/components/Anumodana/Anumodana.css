@@ -1,0 +1,21 @@
+.f1{
+    font-weight: 600;
+    color:#c01f10;
+}
+
+.f2{
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0;
+    color: #c01f10;
+    font-weight: bold;
+}
+
+.f3{
+    font-size: 12px;
+    line-height: 30px;
+    margin: 0;
+     padding: 4%;
+    font-family: poppins;
+}
+    

@@ -1,0 +1,14 @@
+.card_n {
+  box-shadow: 0 0 15px rgb(0 0 0 / 7%);
+  margin: 0rem 0;
+}
+.clock_icon3{
+font-size: 10px;
+color: rgb(0, 0, 0);
+}
+
+.card-img-tops {
+object-fit: cover;
+padding: 2%;
+
+}

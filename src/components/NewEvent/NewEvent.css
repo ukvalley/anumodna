@@ -1,0 +1,39 @@
+.p{
+    font-size: 90%;
+      font-weight: 500;
+      font-style: bold;
+      margin-top: 5%;
+  }
+
+  .ima{
+    width: 100%;
+    
+  }
+  
+
+  .cardn{
+    padding: 1%;
+    margin: 2px;
+    width: 335px;
+    height: auto;
+   
+   
+}
+
+  
+.card-title{
+ color:  #a90f0f;
+}
+
+.card-subtitle{
+  color: #000;
+  font-size: 65%;
+}
+
+.clock_icon{
+  font-size: 15px;
+  color: #000;
+}
+.f-text{
+  color: #000;
+}

@@ -1,0 +1,27 @@
+.c{
+  padding: 3%;
+}
+
+
+  grid-container {
+    display: grid;
+    column-gap: auto;
+    grid-template-columns: auto auto;
+    border: 1px solid #b6bcff4d;
+    padding: 10px;
+  }
+  
+  .grid-item {
+    
+    font-size: 15px;
+    text-align: center;
+  }
+  .card_img_cd {
+    width: 79%;
+}
+
+.link{
+  color:rgb(3, 4, 4);
+   text-decoration: none; 
+   background-color: none;
+}

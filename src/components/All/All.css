@@ -1,0 +1,76 @@
+.tabs {
+	width: 80%;
+	margin: auto;
+	overflow-x: auto;
+    
+	-webkit-overflow-scrolling: touch;
+	border-radius: 4px;}
+	.tabs__items {
+		display: flex;
+		justify-content: flex-start;
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+    }
+		li {
+			flex-grow: 1;
+			flex-shrink: 0;
+			border-radius: 1px 2px 3px #fff;
+			transition: 0.15s box-shadow ease-in-out;
+        }
+			
+			.aba {
+                display: block;
+                padding: 7px 11px;
+                color: #232323;
+                text-decoration: none;
+                cursor: pointer;
+                background: #cde4f7;
+                margin: 10px;
+                border-radius: 12px;
+			}
+	
+
+@media screen and (max-width: 768px) {
+	.tabs {
+		width: 100%;
+	}
+
+
+    .tabs::-webkit-scrollbar {
+        display: none;
+    }
+    
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .tabs {
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
+    }
+}
+
+
+
+h1 {
+	padding: 24px;
+	font-size: 48px;
+	line-height: 48px;
+	color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+	h1 {
+		padding: 16px;
+		font-size: 32px;
+		line-height: 36px;
+	}
+}
+
+.nav{
+    min-height: 72px;
+    background: #FFFFFF;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.05);
+    /* padding: 0 5%; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

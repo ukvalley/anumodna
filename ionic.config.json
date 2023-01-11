@@ -1,0 +1,7 @@
+{
+    "name": "Anumodana",
+    "integrations": {
+      "capacitor": {}
+    },
+    "type": "react"
+  }
